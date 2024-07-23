@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.mypy_cache/
+.vscode/
+.virtual_documents/
+__pycache__/
+.pytest_cache/

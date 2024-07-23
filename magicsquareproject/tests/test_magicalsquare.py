@@ -1,3 +1,4 @@
+"""simple tests with pytest"""
 from magicalsquare import is_magic
 
 
