@@ -5,7 +5,7 @@ https://docs.python.org/3/library/venv.html
 python -m venv .venv
 
 ### activate environment
-Change environment variable PATH:
+Change environment variable PATH (choose acoording to your CLI):
 ```
 .\.venv\Scripts\Activate.ps1
 .venv\Scripts\activate.bat
@@ -43,3 +43,19 @@ conda install  numpy pytest mypy
 ```
 
 NB: check scripts directory containing mypy and pytest scripts
+
+## Dependencies with requirements.txt
+```
+pip install -r requirements.txt
+```
+
+Update requirements
+```
+pip freeze > .\requirements.txt
+```
+
+## Build Project
+```
+python install build
+python -m build
+```

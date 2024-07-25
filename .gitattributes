@@ -1,0 +1,6 @@
+*.py text=auto
+*.ipynb text=false
+*.pdf binary
+*.excalidraw binary
+*.png binary
+*.svg binary
